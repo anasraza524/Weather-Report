@@ -10,10 +10,10 @@ body {
     font-size: 120%;
   }
   .card{
-    background: #000000dc;
+    background-color: rgba(8, 8, 8, 0.671);
     
-  color: white;
-  padding: 2em;
+  color:white;
+  padding: 1.5em;
   border-radius: 30px;
   width: 100%;
   max-width: 420px;

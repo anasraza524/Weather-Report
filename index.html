@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather web</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="card">
+    <div>
+      <form class="search" onsubmit="weather(); return false">
+        <!-- 
+              <div class="search-box">
+                <input class="search-txt" type="text" id="city" placeholder="Type to search">
+                <a class="search-btn" >
+                  
+                  
+                </a>
+            </div> -->
+        <input type="text" maxlength="20" class="search-bar" placeholder="Search" id="city">
+        <button type="submit"> <i class="fa fa-search"></i></button>
+      </form>
+      <div id="message"></div>
+
+
+    </div>
+    <div class="weather_loading" id="hidden_weather">
+<div class="flex">
+  <span> <h2 class="city">Weather in <b >Denver</b>
+  </h2><h5 class="regon">sindh pakistan</h5>
+    
+    <h1 class="temp">51°C</h1></span>
+    <span>
+      <img src="https://openweathermap.org/img/wn/04n.png" alt="not Found" class="icon" />
+    </span>
+</div>
+     
+      <div class="flex">
+
+        <div class="description">Cloudy</div>
+        
+      </div>
+      <div class="humidity">Humidity: 60%</div>
+      <div class="wind">Wind speed: 6.2 km/h</div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>

@@ -10,7 +10,6 @@ body {
     font-size: 120%;
   }
   .card{
-    display: flex;
     background-color: rgba(8, 8, 8, 0.671);
     
   color:white;
